@@ -1,0 +1,14 @@
+.btnLogin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.btnLogin span{
+    font-size: 15px;
+}
+.btnLogin img{
+    width: 25px;
+}
