@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --background:#171c31;
+    --secundaryColor:#262e47;
+    --azulProve:#25c7da;
+}
+body{
+    background-color: var(--background) ;
+}

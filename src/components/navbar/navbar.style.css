@@ -4,6 +4,7 @@ a{
     font-weight: 300 !important;
 }
 .navbar{
+    background-color: var(--secundaryColor);
     border-bottom: 1px solid #80808030;
     padding: 10px;
 }
