@@ -16,6 +16,7 @@ function Login() {
   }
   return (
     <div className='contenLogin'>
+      <p className="loginP">Login</p>
       <button onClick={handleclick} className="btnLogin">
         <img src="./googleIcon.svg" alt="" />
        <span>Login with google</span></button>

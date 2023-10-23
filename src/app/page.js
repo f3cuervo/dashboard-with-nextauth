@@ -1,4 +1,5 @@
 import Login from '@/components/login/Login'
+import './page.style.css'
 import React from 'react'
 
 function HomePage() {

@@ -1,3 +1,15 @@
+.contenLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: inherit;
+}
+.loginP{
+    font-size: 30px;
+    font-weight: 400;
+}
 .btnLogin {
     display: flex;
     align-items: center;
@@ -5,6 +17,8 @@
     padding: 5px 10px;
     background-color: white;
     border-radius: 5px;
+    border-color: #80808030;
+    cursor: pointer;
 }
 .btnLogin span{
     font-size: 15px;

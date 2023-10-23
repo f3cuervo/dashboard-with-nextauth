@@ -1,5 +1,6 @@
 'use client'
 import { signOut, useSession } from "next-auth/react";
+import './navbar.style.css'
 import Link from "next/link";
 import React from "react";
 
@@ -9,9 +10,10 @@ function Navbar() {
   
   
   return (
-    <nav>
-      <Link href="/">
-        <h1>NextGoogle</h1>
+    <nav className="navbar">
+      <Link className="contentLogo" href="/">
+        <img src="./logo.svg" alt="" />
+        <h1>Cognito</h1>
       </Link>
 
 
