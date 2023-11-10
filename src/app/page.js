@@ -1,10 +1,9 @@
 import Login from '@/components/login/Login'
-import './page.style.css'
 import React from 'react'
 
 function HomePage() {
   return (
-    <div className='globalLogin'>
+    <div className='background-color: rgb(51 65 85);'>
       <Login/>
     </div>
   )
